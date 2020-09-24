@@ -1,22 +1,98 @@
 <!doctype html>
 <html lang="en">
+    
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/style.css">
     <title>About Me</title>
   </head>
   <body>
-    <h1>Zak Monnet</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand">Zak Monnet</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link" href="contact.html">Contact Me</a>
+        </div>
+      </div>
+    </nav>
+      
+    <div class="container">
+
+      <div class="row">
+        <main class="col-md-8 hero">
+          <div class="row">
+            <h1 class="col-md">About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/korea.jpeg" class="img-fluid" alt="Close up photo of me">
+            </div>
+            <div class="col-md-8">
+              <p>My name is Zak Monnet. I am a Full-Stack Web Developer and musician based in Nashville, TN.</p>
+              <br>
+              <p>I currently serve on the Board of Directors for local non-profit <a href="http://www.radiofreenashville.org">Radio Free Nashville.</a> In my free time I enjoy traveling, food, and craft beer.</p>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-8 offset-md-4">
+              <p class="poem">"Happy the man, and happy he alone,<br>
+                he who can call today his own:<br>
+                he who, secure within, can say,<br>
+                Tomorrow do thy worst, for I have lived today.<br>
+                -John Dryden
+              </p>
+            </div>
+          </div>
+        </main>
+
+        <aside class="col-md-4">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="images/hawaii.jpeg" class="d-block w-100" alt="Me, standing in front of the ocean in Hawaii">
+              </div>
+              <div class="carousel-item">
+                <img src="images/elephant.jpeg" class="d-block w-100" alt="Me, will elephants in Thailand">
+              </div>
+              <div class="carousel-item">
+                <img src="images/temple.jpeg" class="d-block w-100" alt="At Wat Pho, a Buddhist temple in Bangkok">
+              </div>
+              <div class="carousel-item">
+                <img src="images/scorpion.jpeg" class="d-block w-100" alt="Me, about to eat a grilled scorpion">
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <footer class="row">
+        <div class="col-md">
+          <p>Designed and built by Zak Monnet</p>
+          <p>&#169 Zak Monnet, 2020</p>
+        </div>
+      </footer>
+    </div>
+
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- LinkedIn JavaScript-->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   </body>
 </html>

@@ -1,0 +1,47 @@
+* {
+    font-size: 20px;
+}
+
+body {
+    background-image: url("../images/pexels-lorenzo-242236.jpg");
+    background-position: fixed;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 16px;
+    background-color: #f8f9fa00;
+}
+
+.hero {
+    background-color: #e9ecef;
+}
+
+.poem {
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.bug {
+    width: 30px;
+    height: 30px;
+}
+
+.link {
+    line-height: 50px;
+}
+
+.link h1 {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.link li {
+    font-size: 24px;
+    padding: 5px;
+}
