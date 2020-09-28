@@ -19,7 +19,8 @@ footer {
 }
 
 .hero {
-    background-color: #e9ecef;
+    background-color: #e9ecefa1;
+    border-radius: 8px;
 }
 
 .poem {
