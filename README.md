@@ -1,12 +1,24 @@
-# 02-Responsive-Portfolio
-Homework #2
+# Portfolio Website
 
-1st draft of portfolio website
+Preview:
+![Preview of application](./images/preview.png)
 
-Built using Bootstrap conainter/grid system and components
+See it in action:
+[Click Me](https://outoftune266.github.io/)
 
-index.html contains about me and bootstrap carousel
+USER STORY:
+- WHEN USER (a potential employer) wants to find more information about me
+- THEN USER can explore my bio, completed projects, Github and LinkedIn profiles
+- WHEN USER wants to contact me
+- THEN USER can fill out a Google form to submit their request
 
-porfolio.html will include future projects as they are completed, bootstrap cards are placeholders
+Future Development Goals:
+- Continue to refine styling
+- Refactor code so site runs on a single HTML file
+- Add functionality to directly send email rather than a form submission
 
-contact.html has google form to collect email requests and links to social media profiles
+Contributors:
+- Zak Monnet:   [Github Profile](https://github.com/outoftune266)
+
+Libraries Used:
+- Bootstrap:   [Website](https://getbootstrap.com/)
