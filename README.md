@@ -22,3 +22,6 @@ Contributors:
 
 Libraries Used:
 - Bootstrap:   [Website](https://getbootstrap.com/)
+
+License:
+- MIT
