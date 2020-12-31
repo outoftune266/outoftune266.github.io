@@ -1,7 +1,7 @@
 # Portfolio Website
 
 Preview:
-![Preview of application](./assets/img/preview.png)
+![Preview of application](./public/assets/images/preview.png)
 
 See it in action:
 [Click Me](https://outoftune266.github.io/)
@@ -24,8 +24,8 @@ Contributors:
 
 Technologies/Libraries Used:
 
-- React
-- Node.js
+- React: [Website](https://reactjs.org/)
+- Node.js: [Website](https://nodejs.org/)
 - Bootstrap: [Website](https://getbootstrap.com/)
 
 License:
