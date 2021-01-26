@@ -5,6 +5,13 @@ class Portfolio extends React.Component {
   state = {
     projects: [
       {
+        name: "K.I.T. - Keep in Touch",
+        description:
+          "A closed group messaging app with Web Socket functionality",
+        href: "https://sheltered-plains-45359.herokuapp.com/",
+        preview: "/assets/images/login_page.PNG",
+      },
+      {
         name: "Time Zone Traveler",
         description: "Find interesting travel stops and add your own",
         href: "https://eatandplay.herokuapp.com/",

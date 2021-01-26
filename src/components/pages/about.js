@@ -37,7 +37,7 @@ function About() {
             <a
               title="Resume"
               class="social-icon"
-              href="assets/Resume-Zak Monnet(11:24).pdf"
+              href="assets/Resume-Zak Monnet 1:21.pdf"
               target="_blank"
             >
               <i class="far fa-file"></i>
