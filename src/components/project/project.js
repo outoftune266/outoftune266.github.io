@@ -17,6 +17,11 @@ function Project(props) {
               />
             </a>
           </div>
+          <div title="Github Repository" class="flex-shrink-0 social-icons">
+            <a class="social-icon" href={project.github} target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
           <div title="See it in action!" class="flex-shrink-0 social-icons">
             <a class="social-icon" href={project.href} target="_blank">
               <i class="far fa-play-circle"></i>

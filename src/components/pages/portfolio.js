@@ -8,18 +8,21 @@ class Portfolio extends React.Component {
         name: "K.I.T. - Keep in Touch",
         description:
           "A closed group messaging app with Web Socket functionality",
+        github: "https://github.com/Andrea-Boyd/Project-3",
         href: "https://sheltered-plains-45359.herokuapp.com/",
         preview: "/assets/images/login_page.PNG",
       },
       {
         name: "Time Zone Traveler",
         description: "Find interesting travel stops and add your own",
+        github: "https://github.com/outoftune266/Time-Zone-Traveler",
         href: "https://eatandplay.herokuapp.com/",
         preview: "/assets/images/Time Zone Traveler.png",
       },
       {
         name: "Song Scout",
         description: "Learn more about your favorite artists and albums",
+        github: "https://github.com/outoftune266/Song-Scout",
         href: "https://outoftune266.github.io/Song-Scout/",
         preview: "assets/images/songscout.png",
       },
@@ -27,12 +30,14 @@ class Portfolio extends React.Component {
         name: "Weather Dashboard",
         description:
           "See current weather and 5-day forecasts for a customizable list of cities",
+        github: "https://github.com/outoftune266/06-Weather-Dashboard",
         href: "https://outoftune266.github.io/06-Weather-Dashboard/",
         preview: "/assets/images/weather.png",
       },
       {
         name: "Eat That Burger!",
         description: "Cloud database for tracking burgers eaten",
+        github: "https://github.com/outoftune266/13-Eat-That-Burger",
         href: "https://evening-lowlands-70965.herokuapp.com/",
         preview: "/assets/images/eatthatburger.png",
       },
